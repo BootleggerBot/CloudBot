@@ -33,7 +33,7 @@ BASIC_FOOD = (
     BasicFood("pie", "pie"),
     BasicFood("brekkie", "brekkie", "brekkie", "brekky", "breakfast"),
     BasicFood("icecream", "icecream"),
-    BasicFood("doobie", "a doobie"),
+    BasicFood("doobie", "a doobie", "doobie", "joint", file="doobie.json"),
     BasicFood("wine", "wine"),
     BasicFood("pizza", "pizza"),
     BasicFood("vpizza", "pizza"),
