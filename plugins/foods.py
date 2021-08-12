@@ -67,7 +67,8 @@ BASIC_FOOD = (
     BasicFood("chocolatemilk", "chocolatemilk", "chocolatemilk", "choccymilk", "choccy"),
     BasicFood("popsicle", "popsicle"),
     BasicFood("salep", "salep"),
-    BasicFood("nightcap", "nightcap")
+    BasicFood("nightcap", "nightcap"),
+    BasicFood("whiskey", "whiskey")
 )
 
 basic_food_data: Dict[str, Dict[str, Any]] = defaultdict(dict)

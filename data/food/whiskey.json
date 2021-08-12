@@ -1,0 +1,48 @@
+{
+    "templates": [
+        "{action} {user} a {vessel} of {whiskey}!"
+    ],
+    "parts": {
+        "action": [
+            "hands",
+            "passes",
+            "serves",
+            "pours"
+        ],
+        "vessel": [
+            "small glass",
+            "large glass",
+            "medium-sized glass",
+            "tall glass",
+            "short glass"
+        ],
+	"whiskey": [
+            "BenRiach 10 year old",
+            "Talisker 10 year old",
+            "Macallan 15 year old",
+            "Balvenie Doublewood",
+            "Lagavulin 16 year old",
+            "Glenfiddich 14 year old",
+            "Oban 14 year old",
+            "Jameson",
+            "Redbreast 12 year old",
+            "Writer's Tears",
+            "Green Spot",
+            "Buffalo Trace Bourbon",
+            "Larceny Bourbon",
+            "Pappy Van Winkle 23 year old",
+            "Tin Cup American Whiskey",
+            "Jack Daniel's Tennessee Whiskey",
+            "Maker's Mark Bourbon",
+            "Four Roses Single Barrel",
+            "Bulleit Frontier Rye Whiskey",
+            "Knob Creek Cask Strength Rye",
+            "Whistlepig",
+            "Crown Royal",
+            "Pendelton",
+            "Hibiki Harmony",
+            "Yamazaki 12 year old",
+            "Nikka Coffee Grain Whisky"
+	]
+    }
+}
