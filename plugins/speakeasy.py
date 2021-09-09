@@ -17,3 +17,12 @@ def stitchgif(message):
 @hook.command("redalert", autohelp=False)
 def redalert(message):
     message("https://i.imgur.com/KmzBy9G.gif");
+
+@hook.command("repo", autohelp=False)
+def repo(message):
+    message("https://github.com/BootleggerBot/CloudBot");
+
+@hook.command("dickdance", autohelp=False)
+def dickdance(message):
+    message("https://imgur.com/jtM3a0j - NSFW");
+

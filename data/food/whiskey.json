@@ -16,7 +16,7 @@
             "tall glass",
             "short glass"
         ],
-	"whiskey": [
+        "whiskey": [
             "BenRiach 10 year old",
             "Talisker 10 year old",
             "Macallan 15 year old",
@@ -43,6 +43,6 @@
             "Hibiki Harmony",
             "Yamazaki 12 year old",
             "Nikka Coffee Grain Whisky"
-	]
+        ]
     }
 }
