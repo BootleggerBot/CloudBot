@@ -294,7 +294,7 @@ def get_chan(chan, text):
     return chan, stripped_text
 
 
-@hook.command(permissions=["botcontrol", "snoonetstaff"])
+@hook.command(permissions=["botcontrol", "snoonetstaff", "say"])
 async def say(text, conn, chan, nick, admin_log):
     """[#channel] <message> - says <message> to [#channel], or to the caller's channel if no channel is specified"""
     channel, text = get_chan(chan, text)
@@ -304,7 +304,7 @@ async def say(text, conn, chan, nick, admin_log):
     conn.message(channel, text)
 
 
-@hook.command("message", "sayto", permissions=["botcontrol", "snoonetstaff"])
+@hook.command("message", "sayto", permissions=["botcontrol", "snoonetstaff", "say"])
 async def send_message(text, conn, nick, admin_log):
     """<name> <message> - says <message> to <name>"""
     split = text.split(None, 1)
@@ -316,7 +316,7 @@ async def send_message(text, conn, nick, admin_log):
     conn.message(channel, text)
 
 
-@hook.command("me", "act", permissions=["botcontrol", "snoonetstaff"])
+@hook.command("me", "act", permissions=["botcontrol", "snoonetstaff", "say"])
 async def me(
     text: str, conn: IrcClient, chan: str, nick: str, event: CommandEvent
 ) -> None:

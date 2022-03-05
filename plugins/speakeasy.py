@@ -26,3 +26,26 @@ def repo(message):
 def dickdance(message):
     message("https://imgur.com/jtM3a0j - NSFW");
 
+@hook.command("wiggle", autohelp=False)
+def wiggle(message):
+    message("https://i.imgur.com/z1nMKqQ.gif");
+
+@hook.command("shake", autohelp=False)
+def shake(message):
+    message("https://media.giphy.com/media/4KFvJomr6nt92hCWu4/giphy.gif");
+
+@hook.command("zoomies", autohelp=False)
+def zoomies(message):
+    message("https://v.redd.it/k22xl9mqpyd41");
+
+@hook.command("cowdles", autohelp=False)
+def cowdles(message):
+    message("https://i.imgur.com/auZsLLa.gifv");
+
+@hook.command("moof", autohelp=False)
+def moof(message):
+    message("https://i.imgur.com/0EJrBzs.gifv");
+
+@hook.command("eyebleach", autohelp=False)
+def eyebleach(message):
+    message("https://i.imgur.com/3Vr2a11.gifv");
